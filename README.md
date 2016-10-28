@@ -6,6 +6,10 @@
 ### 1. 首先把项目克隆到本地
 
 ### ```git clone https://github.com/Fenghuapiao/PyQuickInstall.git```
+然后pip安装依赖库`docopt`
+```
+pip install docopt
+```
 
 ### 2. 进入项目文件的根目录，并打开命令行输入 ```pyqs.py ``` 回车，会显示如下帮助内容
 ```
