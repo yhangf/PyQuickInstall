@@ -1,6 +1,6 @@
 # pqi
 
-由于国内通过pip下载python包的速度真的很慢，而pqi可以把PyPi源迅速切换化为国内源tuna, double, aliyun, 从而加快python包的安装速度。
+由于国内通过pip下载python包的速度真的很慢，而pqi可以把PyPi源迅速切换化为国内源tuna, douban, aliyun, 从而加快python包的安装速度。
 
 ## 怎么使用(兼容py2/py3)
 ### 1.安装
