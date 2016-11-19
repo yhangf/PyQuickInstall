@@ -1,5 +1,7 @@
+# pqi: a terminal tools for Python  ![MIT License][license-badge]
 
-# pqi
+由于国内通过pip下载python包的速度真的很慢，而pqi可以把PyPi源迅速切换化为国内源tuna, douban, aliyun, 从而加快python包的安装速度。
+
 ```
              _ __      _,.---._      .=-.-.
           .-`.' ,`.  ,-.' - ,  `.   /==/_ /
@@ -11,11 +13,9 @@
         /==/ - |     '.='.  ,  ; -\/==/. /  
         `--`---'       `--`--'' `--`--`-`   
 
-                        ---- A Terminal Tools For Python
+                        ---- by yanghangfeng
 
 ```
-
-由于国内通过pip下载python包的速度真的很慢，而pqi可以把PyPi源迅速切换化为国内源tuna, douban, aliyun, 从而加快python包的安装速度。
 
 ## 怎么使用(兼容py2/py3)
 ### 1.安装
@@ -55,3 +55,5 @@ pqi show
 
 ## LICENSE
 [MIT](https://github.com/Fenghuapiao/PyQuickInstall/blob/master/LICENSE)
+
+[license-badge]:   https://img.shields.io/badge/license-MIT-007EC7.svg
