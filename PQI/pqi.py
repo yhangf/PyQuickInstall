@@ -9,7 +9,20 @@ Options:
   -h --help        Show this screen.
   -v --version     Show version.
 """
+"""
+     _ __      _,.---._      .=-.-.
+  .-`.' ,`.  ,-.' - ,  `.   /==/_ /
+ /==/, -   \/==/ ,    -  \ |==|, |
+|==| _ .=. |==| - .=.  ,  ||==|  |
+|==| , '=',|==|  : ;=:  - ||==|- |
+|==|-  '..'|==|,  '='  ,  ||==| ,|
+|==|,  |    \==\ _   -    ;|==|- |
+/==/ - |     '.='.  ,  ; -\/==/. /
+`--`---'       `--`--'' `--`--`-`
 
+                ---- A Terminal Tools For Python
+
+"""
 from __future__ import print_function
 
 import os
@@ -70,6 +83,7 @@ def show_current_source():
             break
     else:
          print("\nUnknown source\n")
+
 
 def main():
     arguments = docopt(__doc__, version='1.0.1')
