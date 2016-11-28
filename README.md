@@ -20,12 +20,14 @@
 ## 怎么使用(兼容py2/py3)
 ### 1.安装
 ```
-pip install pqi
+>>> pip install pqi
 ```
 
 
 ### 2. 命令行输入 `pqi` 回车
 ```
+>>> pqi
+
 Usage:
   pqi ls
   pqi use <name>
@@ -38,19 +40,19 @@ Options:
 ```
 列举所有支持的PyPi源
 ```
-pqi ls
+>>> pqi ls
 ```
 
 改变PyPi源
 ```
-pqi use <name>
+>>> pqi use <name>
 ```
 例子，比如运行`pqi use tuna`即把当前PyPi源改为清华的PyPi源
 
 显示当前PyPi源
 
 ```
-pqi show
+>>> pqi show
 ```
 
 ## LICENSE
