@@ -17,10 +17,11 @@
 
 ```
 
-## 怎么使用(兼容py2/py3)
+## 怎么使用(兼容py2/py3/linux/windows)
 ### 1.安装
 ```
->>> pip install pqi
+>>> git clone https://github.com/Fenghuapiao/PyQuickInstall.git
+>>> python3 setup.py install
 ```
 
 
