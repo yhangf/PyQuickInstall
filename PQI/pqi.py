@@ -136,5 +136,4 @@ def main():
 
 if __name__ == '__main__':
     print(APP_DESC)
-	main()
-
+    main()
