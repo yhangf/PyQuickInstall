@@ -19,6 +19,12 @@
 
 ## 怎么使用(兼容py2/py3/linux/windows)
 ### 1.安装
+#### 方法一（推荐）
+```
+>>> pip install pqi
+```
+
+#### 方法二
 ```
 >>> git clone https://github.com/Fenghuapiao/PyQuickInstall.git
 >>> python3 setup.py install

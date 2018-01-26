@@ -120,7 +120,7 @@ def remove_source(source_name):
         print("\n{}({}) is remove to Source list.\n".format(source_name, source_url))
 
 def main():
-    arguments = docopt(__doc__, version='1.0.1')
+    arguments = docopt(__doc__, version='2.0')
     if arguments['ls']:
         list_all_source()
     elif arguments['use']:
