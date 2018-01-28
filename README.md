@@ -46,28 +46,28 @@ Options:
   -h --help        Show this screen.
   -v --version     Show version.
 ```
-"*" 列举所有支持的PyPi源
+* 列举所有支持的PyPi源
 ```
 >>> pqi ls
 ```
 
-"*" 改变PyPi源
+* 改变PyPi源
 ```
 >>> pqi use <name>
 ```
 例子，比如运行`pqi use tuna`即把当前PyPi源改为清华的PyPi源
 
-"*" 显示当前PyPi源
+* 显示当前PyPi源
 ```
 >>> pqi show
 ```
 
-"*" 添加新的pip源(如添加USTC源）
+* 添加新的pip源(如添加USTC源）
 ```
 >>> pqi add ustc https://mirrors.ustc.edu.cn/pypi/web/simple
 ```
 
-"*" 移除pip源（如官方PyPi源）
+* 移除pip源（如官方PyPi源）
 ```
 >>> pqi remove pypi
 ```
