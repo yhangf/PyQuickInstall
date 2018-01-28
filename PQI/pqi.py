@@ -50,7 +50,8 @@ if not os.path.exists(SOURCES_NAME):
             "pypi": "https://pypi.python.org/simple/",
             "tuna": "https://pypi.tuna.tsinghua.edu.cn/simple",
             "douban": "http://pypi.douban.com/simple/",
-            "aliyun": "http://mirrors.aliyun.com/pypi/simple/"
+            "aliyun": "http://mirrors.aliyun.com/pypi/simple/",
+            "ustc": "https://mirrors.ustc.edu.cn/pypi/web/simple"
         }, fp)
 with open(SOURCES_NAME, 'rb') as fp:
     SOURCES = pickle.load(fp)
@@ -58,7 +59,7 @@ with open(SOURCES_NAME, 'rb') as fp:
 APP_DESC = """
          PQI
           ---- A Terminal Tools For Python
-          @author Yanghangfeng (https:/github.com/Fenghuapiao)
+          @author Hangfeng Yang (https:/github.com/Fenghuapiao)
                         last_update 2016-10-29 08:58
 """
 
@@ -120,7 +121,7 @@ def remove_source(source_name):
         print("\n{}({}) is remove to Source list.\n".format(source_name, source_url))
 
 def main():
-    arguments = docopt(__doc__, version='2.0')
+    arguments = docopt(__doc__, version='2.0.2')
     if arguments['ls']:
         list_all_source()
     elif arguments['use']:
