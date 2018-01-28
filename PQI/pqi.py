@@ -25,8 +25,8 @@ Options:
 """
 
 import os
-import sys
 import re
+import sys
 import pickle
 import platform
 from docopt import docopt
