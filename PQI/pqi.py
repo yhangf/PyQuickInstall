@@ -60,7 +60,7 @@ APP_DESC = """
          PQI
           ---- A Terminal Tools For Python
           @author Hangfeng Yang (https:/github.com/Fenghuapiao)
-                        last_update 2016-10-29 08:58
+                        last_update 2018-01-28 15:41
 """
 
 def list_all_source():
