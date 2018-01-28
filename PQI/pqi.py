@@ -25,11 +25,10 @@ Options:
 """
 
 import os
-import re
 import sys
 import re
-import platform
 import pickle
+import platform
 from docopt import docopt
 try:
     import configparser
