@@ -1,4 +1,5 @@
-# pqi: a terminal tools for Python ![MIT License][license-badge]
+# pqi: a terminal tools for Python 
+<center>![MIT License][license-badge][![PyPI](https://img.shields.io/pypi/v/pqi.svg)](https://pypi.python.org/pypi/pqi)</center>
 
 由于国内通过pip下载python包的速度真的很慢，而pqi可以把PyPi源迅速切换化为国内源tuna, douban, aliyun, ustc从而加快python包的安装速度。
 
