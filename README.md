@@ -1,17 +1,15 @@
 # <p align="center">pqi: a terminal tools for Python</p>
 
 <p align="center">
-
-<a href="https://github.com/Fenghuapiao/PyQuickInstall/blob/master/LICENSE">
+    <a href="https://github.com/Fenghuapiao/PyQuickInstall/blob/master/LICENSE">
         <img src="https://img.shields.io/cocoapods/l/EFQRCode.svg?style=flat">
-    </a>
-
-​    <a href="https://pypi.python.org/pypi/pqi">
+        </a>
+    <a href="https://pypi.python.org/pypi/pqi">
         <img src="https://img.shields.io/pypi/v/pqi.svg">
-    </a>
+        </a>
     <a href="https://github.com/python/cpython">
         <img src="https://img.shields.io/badge/language-python-ff69b4.svg">
-    </a>
+        </a>
 </p>
 
 由于国内通过pip下载python包的速度真的很慢，而pqi可以把PyPi源迅速切换化为国内源tuna, douban, aliyun, ustc从而加快python包的安装速度。
