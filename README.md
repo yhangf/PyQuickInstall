@@ -1,13 +1,16 @@
-# pqi: a terminal tools for Python 
+# <p align="center">pqi: a terminal tools for Python</p>
+
 <p align="center">
-    <a href="https://pypi.python.org/pypi/pqi">
+
+<a href="https://github.com/Fenghuapiao/PyQuickInstall/blob/master/LICENSE">
+        <img src="https://img.shields.io/cocoapods/l/EFQRCode.svg?style=flat">
+    </a>
+
+​    <a href="https://pypi.python.org/pypi/pqi">
         <img src="https://img.shields.io/pypi/v/pqi.svg">
     </a>
     <a href="https://github.com/python/cpython">
-        <img src="https://img.shields.io/badge/language-python.svg">
-    </a>
-    <a href="https://github.com/Fenghuapiao/PyQuickInstall/blob/master/LICENSE">
-        <img src="https://img.shields.io/cocoapods/l/EFQRCode.svg?style=flat">
+        <img src="https://img.shields.io/badge/language-python-ff69b4.svg">
     </a>
 </p>
 
