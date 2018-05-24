@@ -24,6 +24,12 @@
     <a href="https://github.com/python/cpython">
         <img src="https://img.shields.io/badge/language-python-ff69b4.svg">
         </a>
+    <a href="https://github.com/Fenghuapiao/PyQuickInstall">
+    <img src="https://img.shields.io/github/stars/Fenghuapiao/PyQuickInstall.svg?style=social&label=Star">
+        </a>
+    <a href="https://github.com/Fenghuapiao/PyQuickInstall">
+    <img src="https://img.shields.io/github/forks/Fenghuapiao/PyQuickInstall.svg?style=social&label=Fork">
+        </a>
 </p>
 
 由于国内通过pip下载python包的速度真的很慢，而pqi可以把PyPi源迅速切换化为国内源tuna, douban, aliyun, ustc从而加快python包的安装速度。
