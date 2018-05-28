@@ -49,7 +49,7 @@ if not os.path.exists(SOURCES_NAME):
             "pypi": "https://pypi.python.org/simple/",
             "tuna": "https://pypi.tuna.tsinghua.edu.cn/simple",
             "douban": "http://pypi.douban.com/simple/",
-            "aliyun": "http://mirrors.aliyun.com/pypi/simple/",
+            "aliyun": "https://mirrors.aliyun.com/pypi/simple/",
             "ustc": "https://mirrors.ustc.edu.cn/pypi/web/simple"
         }, fp)
 with open(SOURCES_NAME, 'rb') as fp:
