@@ -1,6 +1,9 @@
 from setuptools import setup, find_packages
 
-VERSION = '2.0.2'
+VERSION = '2.0.4'
+
+with open("README.md", "r", encoding="utf-8") as fp:
+    long_description = fp.read()
 
 setup(name='pqi',
       version=VERSION,
@@ -12,6 +15,8 @@ setup(name='pqi',
       url='https://github.com/Fenghuapiao/PyQuickInstall',
       license='MIT',
       packages=["PQI"],
+      long_description=long_description,
+      long_description_content_type="text/markdown",
       include_package_data=True,
       zip_safe=True,
       install_requires=[
