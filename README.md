@@ -15,7 +15,7 @@
 # <p align="center">pqi: a terminal tools for Python</p>
 
 <p align="center">
-    <a href="https://github.com/Fenghuapiao/PyQuickInstall/blob/master/LICENSE">
+    <a href="https://github.com/yhangf/PyQuickInstall/blob/master/LICENSE">
         <img src="https://img.shields.io/cocoapods/l/EFQRCode.svg?style=flat">
         </a>
     <a href="https://pypi.python.org/pypi/pqi">
@@ -24,11 +24,11 @@
     <a href="https://github.com/python/cpython">
         <img src="https://img.shields.io/badge/language-python-ff69b4.svg">
         </a>
-    <a href="https://github.com/Fenghuapiao/PyQuickInstall">
-    <img src="https://img.shields.io/github/stars/Fenghuapiao/PyQuickInstall.svg?style=social&label=Star">
+    <a href="https://github.com/yhangf/PyQuickInstall">
+    <img src="https://img.shields.io/github/stars/yhangf/PyQuickInstall.svg?style=social&label=Star">
         </a>
-    <a href="https://github.com/Fenghuapiao/PyQuickInstall">
-    <img src="https://img.shields.io/github/forks/Fenghuapiao/PyQuickInstall.svg?style=social&label=Fork">
+    <a href="https://github.com/yhangf/PyQuickInstall">
+    <img src="https://img.shields.io/github/forks/yhangf/PyQuickInstall.svg?style=social&label=Fork">
         </a>
 </p>
 
@@ -44,7 +44,7 @@
 
 #### 方法二
 ```
->>> git clone https://github.com/Fenghuapiao/PyQuickInstall.git
+>>> git clone https://github.com/yhangf/PyQuickInstall.git
 >>> python3 setup.py install
 ```
 
@@ -96,4 +96,4 @@ Options:
 ```
 
 ## LICENSE
-[MIT](https://github.com/Fenghuapiao/PyQuickInstall/blob/master/LICENSE)
+[MIT](https://github.com/yhangf/PyQuickInstall/blob/master/LICENSE)
