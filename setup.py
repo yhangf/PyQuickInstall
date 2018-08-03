@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '2.0.4'
+VERSION = '2.0.5'
 
 with open("README.md", "r", encoding="utf-8") as fp:
     long_description = fp.read()
@@ -12,7 +12,7 @@ setup(name='pqi',
       keywords='python、PyPi source、terminal',
       author='HangfengYang',
       author_email='yhf5fhy@gmail.com',
-      url='https://github.com/Fenghuapiao/PyQuickInstall',
+      url='https://github.com/yhangf/PyQuickInstall',
       license='MIT',
       packages=["PQI"],
       long_description=long_description,
