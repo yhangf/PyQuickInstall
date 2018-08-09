@@ -13,14 +13,14 @@ Options:
 """
 """
      _ __      _,.---._      .=-.-.
-  .-`.' ,`.  ,-.' - ,  `.   /==/_ /
+  .-`." ,`.  ,-." - ,  `.   /==/_ /
  /==/, -   \/==/ ,    -  \ |==|, |
 |==| _ .=. |==| - .=.  ,  ||==|  |
-|==| , '=',|==|  : ;=:  - ||==|- |
-|==|-  '..'|==|,  '='  ,  ||==| ,|
+|==| , "=",|==|  : ;=:  - ||==|- |
+|==|-  ".."|==|,  "="  ,  ||==| ,|
 |==|,  |    \==\ _   -    ;|==|- |
-/==/ - |     '.='.  ,  ; -\/==/. /
-`--`---'       `--`--'' `--`--`-`
+/==/ - |     ".=".  ,  ; -\/==/. /
+`--`---"       `--`--"" `--`--`-`
                 ---- A Terminal Tools For Python
 """
 
@@ -35,16 +35,16 @@ try:
 except:
     import ConfigParser as configparser
 
-FILE_NAME = '~\\pip\\pip.ini' if ('Windows' in platform.system()) else '~/.pip/pip.conf'
+FILE_NAME = "~\\pip\\pip.ini" if ("Windows" in platform.system()) else "~/.pip/pip.conf"
 FILE_PATH = os.path.expanduser(FILE_NAME)
 dir_path = os.path.dirname(FILE_PATH)
 if not os.path.exists(dir_path):
     os.mkdir(dir_path)
-SOURCES_NAME = os.path.join(dir_path, 'sources.dict')
+SOURCES_NAME = os.path.join(dir_path, "sources.dict")
 SOURCES = dict()
 
 if not os.path.exists(SOURCES_NAME):
-    with open(SOURCES_NAME, 'wb') as fp:
+    with open(SOURCES_NAME, "wb") as fp:
         pickle.dump({
             "pypi": "https://pypi.python.org/simple/",
             "tuna": "https://pypi.tuna.tsinghua.edu.cn/simple",
@@ -52,7 +52,7 @@ if not os.path.exists(SOURCES_NAME):
             "aliyun": "https://mirrors.aliyun.com/pypi/simple/",
             "ustc": "https://mirrors.ustc.edu.cn/pypi/web/simple"
         }, fp)
-with open(SOURCES_NAME, 'rb') as fp:
+with open(SOURCES_NAME, "rb") as fp:
     SOURCES = pickle.load(fp)
 
 APP_DESC = """
@@ -63,10 +63,10 @@ APP_DESC = """
 """
 
 def list_all_source():
-    print("\n")
+    print('\n')
     for key in SOURCES.keys():
-        print(key, "\t", SOURCES[key])
-    print("\n")
+        print(key, '\t', SOURCES[key])
+    print('\n')
 
 def write_file(source_name):
     with open(FILE_PATH, 'w') as fp:
@@ -96,7 +96,7 @@ def show_current_source():
          print("\nCurrent source is {}.\n".format(index_url))
 
 def check_url(url):
-    p = re.compile('^https?://.+?/simple/?$')
+    p = re.compile("^https?://.+?/simple/?$")
     if p.match(url) == None:
         return False    
     return True
@@ -106,7 +106,7 @@ def add_source(source_name, source_url):
         print("\nURL({}) does not conform to the rules.\n".format(source_url))
         return
     SOURCES[source_name] = source_url
-    with open(SOURCES_NAME, 'wb') as fp:
+    with open(SOURCES_NAME, "wb") as fp:
         pickle.dump(SOURCES, fp)
     print("\n{}({}) is add to Source list.\n".format(source_name, source_url))
 
@@ -115,25 +115,25 @@ def remove_source(source_name):
         print("\n{} is not in the Source list.\n".format(source_name))
     else:
         source_url = SOURCES.pop(source_name)
-        with open(SOURCES_NAME, 'wb') as fp:
+        with open(SOURCES_NAME, "wb") as fp:
             pickle.dump(SOURCES, fp)
         print("\n{}({}) is remove to Source list.\n".format(source_name, source_url))
 
 def main():
-    arguments = docopt(__doc__, version='2.0.2')
-    if arguments['ls']:
+    arguments = docopt(__doc__, version="2.0.6")
+    if arguments["ls"]:
         list_all_source()
-    elif arguments['use']:
-        select_source_name(arguments['<name>'])
-    elif arguments['show']:
+    elif arguments["use"]:
+        select_source_name(arguments["<name>"])
+    elif arguments["show"]:
         show_current_source()
-    elif arguments['add']:
-        add_source(arguments['<name>'], arguments['<url>'])
-    elif arguments['remove']:
-        remove_source(arguments['<name>'])
+    elif arguments["add"]:
+        add_source(arguments["<name>"], arguments["<url>"])
+    elif arguments["remove"]:
+        remove_source(arguments["<name>"])
     else:
-        print('input error!')
+        print("input error!")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     print(APP_DESC)
     main()
