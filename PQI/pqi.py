@@ -58,8 +58,8 @@ with open(SOURCES_NAME, "rb") as fp:
 APP_DESC = """
          PQI
           ---- A Terminal Tools For Python
-          @author Hangfeng Yang (https:/github.com/Fenghuapiao)
-                        last_update 2018-01-28 15:41
+          @author Hangfeng Yang (https:/github.com/yhangf)
+                        last_update 2018-08-09 9:17
 """
 
 def list_all_source():
