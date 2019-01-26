@@ -12,7 +12,7 @@
                                                     ---- by Hangfeng Yang
 
 ```
-# <p align="center">pqi: a terminal tools for Python</p>
+# <p align="center">pqi: a terminal tools for Python:globe_with_meridians:</p>
 
 <p align="center">
     <a href="https://github.com/yhangf/PyQuickInstall/blob/master/LICENSE">
