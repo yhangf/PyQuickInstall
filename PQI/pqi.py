@@ -48,7 +48,7 @@ if not os.path.exists(SOURCES_NAME):
         pickle.dump({
             "pypi": "https://pypi.python.org/simple/",
             "tuna": "https://pypi.tuna.tsinghua.edu.cn/simple",
-            "douban": "http://pypi.douban.com/simple/",
+            "douban": "https://pypi.doubanio.com/simple/",
             "aliyun": "https://mirrors.aliyun.com/pypi/simple/",
             "ustc": "https://mirrors.ustc.edu.cn/pypi/web/simple"
         }, fp)
