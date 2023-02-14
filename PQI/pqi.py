@@ -1,29 +1,3 @@
-"""PQI
-Usage:
-  pqi ls
-  pqi use <name>
-  pqi show
-  pqi add <name> <url>
-  pqi remove <name>
-  pqi (-h | --help)
-  pqi (-v | --version)
-Options:
-  -h --help        Show this screen.
-  -v --version     Show version.
-"""
-"""
-     _ __      _,.---._      .=-.-.
-  .-`." ,`.  ,-." - ,  `.   /==/_ /
- /==/, -   \/==/ ,    -  \ |==|, |
-|==| _ .=. |==| - .=.  ,  ||==|  |
-|==| , "=",|==|  : ;=:  - ||==|- |
-|==|-  ".."|==|,  "="  ,  ||==| ,|
-|==|,  |    \==\ _   -    ;|==|- |
-/==/ - |     ".=".  ,  ; -\/==/. /
-`--`---"       `--`--"" `--`--`-`
-                ---- A Terminal Tools For Python
-"""
-
 import os
 import re
 import sys
@@ -35,7 +9,8 @@ try:
 except:
     import ConfigParser as configparser
 
-FILE_NAME = "~\\pip\\pip.ini" if ("Windows" in platform.system()) else "~/.pip/pip.conf"
+FILE_NAME = "~\\pip\\pip.ini" if ("Windows" in platform.system()) else "~/.config/pip/pip.conf"
+# FILE_NAME = "~\\pip\\pip.ini" if ("Windows" in platform.system()) else "~/.pip/pip.conf"
 FILE_PATH = os.path.expanduser(FILE_NAME)
 dir_path = os.path.dirname(FILE_PATH)
 if not os.path.exists(dir_path):
@@ -59,7 +34,7 @@ APP_DESC = """
          PQI
           ---- A Terminal Tools For Python
           @author Hangfeng Yang (https:/github.com/yhangf)
-                        last_update 2018-08-09 9:17
+                        last_update 2023-02-14
 """
 
 def list_all_source():
@@ -98,7 +73,7 @@ def show_current_source():
 def check_url(url):
     p = re.compile("^https?://.+?/simple/?$")
     if p.match(url) == None:
-        return False    
+        return False
     return True
 
 def add_source(source_name, source_url):

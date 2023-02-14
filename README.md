@@ -1,14 +1,4 @@
 ```shell
-                                         _ __      _,.---._      .=-.-.
-                                      .-`.' ,`.  ,-.' - ,  `.   /==/_ /
-                                     /==/, -   \/==/ ,    -  \ |==|, |  
-                                    |==| _ .=. |==| - .=.  ,  ||==|  |  
-                                    |==| , '=',|==|  : ;=:  - ||==|- |  
-                                    |==|-  '..'|==|,  '='  ,  ||==| ,|  
-                                    |==|,  |    \==\ _   -    ;|==|- |  
-                                    /==/ - |     '.='.  ,  ; -\/==/. /  
-                                    `--`---'       `--`--'' `--`--`-`   
-
                                                     ---- by Hangfeng Yang
 
 ```
@@ -46,7 +36,7 @@
 
 #### 方法二
 ```
->>> git clone https://github.com/yhangf/PyQuickInstall.git
+>>> git clone https://github.com/sisrfeng/PyQuickInstall.git
 >>> python3 setup.py install
 ```
 
@@ -92,10 +82,6 @@ Options:
 >>> pqi remove pypi
 ```
 
-### 3. 升级到最新版`pqi`
-```
->>> pip install --upgrade pqi
-```
 
 ## LICENSE
 [MIT](https://github.com/yhangf/PyQuickInstall/blob/master/LICENSE)
