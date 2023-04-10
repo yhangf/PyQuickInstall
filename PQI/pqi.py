@@ -35,7 +35,7 @@ try:
 except:
     import ConfigParser as configparser
 
-FILE_NAME = "~\\pip\\pip.ini" if ("Windows" in platform.system()) else "~/.pip/pip.conf"
+FILE_NAME = "~\\pip\\pip.ini" if ("Windows" in platform.system()) else "~/.config/pip/pip.conf"
 FILE_PATH = os.path.expanduser(FILE_NAME)
 dir_path = os.path.dirname(FILE_PATH)
 if not os.path.exists(dir_path):
