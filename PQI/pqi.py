@@ -59,7 +59,7 @@ APP_DESC = """
          PQI
           ---- A Terminal Tools For Python
           @author Hangfeng Yang (https:/github.com/yhangf)
-                        last_update 2018-08-09 9:17
+                        last_update 2023-04-10 19:27
 """
 
 def list_all_source():
@@ -120,7 +120,7 @@ def remove_source(source_name):
         print("\n{}({}) is remove to Source list.\n".format(source_name, source_url))
 
 def main():
-    arguments = docopt(__doc__, version="2.0.6")
+    arguments = docopt(__doc__, version="3.0.0")
     if arguments["ls"]:
         list_all_source()
     elif arguments["use"]:
