@@ -39,7 +39,7 @@ FILE_NAME = "~\\pip\\pip.ini" if ("Windows" in platform.system()) else "~/.confi
 FILE_PATH = os.path.expanduser(FILE_NAME)
 dir_path = os.path.dirname(FILE_PATH)
 if not os.path.exists(dir_path):
-    os.mkdir(dir_path)
+    os.makedirs(dir_path)
 SOURCES_NAME = os.path.join(dir_path, "sources.dict")
 SOURCES = dict()
 
